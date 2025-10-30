@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Tools Hub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script type="importmap">
+  {
+    "imports": {
+      "react": "https://aistudiocdn.com/react@^19.2.0",
+      "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+      "react/": "https://aistudiocdn.com/react@^19.2.0/",
+      "@google/genai": "https://aistudiocdn.com/@google/genai@^1.28.0"
+    }
+  }
+  </script>
+  <style>
+    :root {
+      --background-dark: #0F172A; /* Slate 900 */
+      --primary-cyan: #06B6D4;
+      --primary-magenta: #D946EF;
+      --text-light: #E2E8F0; /* Slate 200 */
+      --glass-bg: rgba(30, 41, 59, 0.5); /* Slate 800 with alpha */
+      --glass-border: rgba(255, 255, 255, 0.1);
+    }
+    body {
+      background-color: var(--background-dark);
+      color: var(--text-light);
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
