@@ -27,7 +27,7 @@ const GlassCard: React.FC<GlassCardProps> = ({ children, onClick, className = ''
 
 
 const HomePage: React.FC<HomePageProps> = ({ onNavigate, onSelectCategory, onSelectTool }) => {
-  const featuredToolIds = ['image-1', 'code-1', 'chat-1', 'chat-2', 'writer-1', 'video-1'];
+  const featuredToolIds = ['chat-1', 'image-1', 'code-1', 'writer-1', 'chat-2', 'video-2', 'audio-2', 'prod-2', 'market-2', 'writer-2', 'image-2', 'code-2', 'audio-1', 'video-1'];
   const featuredTools = featuredToolIds
     .map(id => TOOLS.find(tool => tool.id === id))
     .filter((tool): tool is Tool => tool !== undefined);

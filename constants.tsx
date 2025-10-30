@@ -85,6 +85,17 @@ export const TOOLS: Tool[] = [
     link: '#',
     keyFeatures: ['Custom Music Generation', 'Multiple Genres', 'Mood-based Creation', 'Royalty-Free Licensing'],
   },
+  {
+    id: 'audio-2',
+    name: 'Suno AI',
+    category: ToolCategory.Audio,
+    description: 'Create original songs with lyrics and vocals from a simple text prompt.',
+    longDescription: 'Suno AI allows anyone to create radio-quality music in seconds. Just type in a style of music and a topic, and Suno generates a complete song with vocals, instrumentation, and lyrics. No musical experience required.',
+    price: 'Freemium',
+    rating: 4.7,
+    link: 'https://suno.com/',
+    keyFeatures: ['Text-to-Song Generation', 'Custom Lyrics', 'Multiple Genres and Styles', 'Instrumental Tracks'],
+  },
 
   // Video Generation
   {
@@ -98,6 +109,17 @@ export const TOOLS: Tool[] = [
     link: '#',
     keyFeatures: ['Text-to-Video', 'AI Avatars', 'Multi-language Voiceovers', 'Template Library'],
   },
+  {
+    id: 'video-2',
+    name: 'Runway ML',
+    category: ToolCategory.Video,
+    description: 'Advanced AI video editing and generation tools for creators.',
+    longDescription: 'Runway ML is a comprehensive suite of AI magic tools for video creators. It offers features like text-to-video generation (Gen-2), video-to-video transformation, infinite image expansion, and automated rotoscoping, empowering filmmakers and artists to create content that was previously impossible.',
+    price: 'Freemium',
+    rating: 4.8,
+    link: 'https://runwayml.com/',
+    keyFeatures: ['Text-to-Video (Gen-2)', 'AI Rotoscoping', 'Video Inpainting', 'Infinite Image Expansion'],
+  },
 
   // Productivity
   {
@@ -110,6 +132,17 @@ export const TOOLS: Tool[] = [
     rating: 4.7,
     link: '#',
     keyFeatures: ['Smart Task Prioritization', 'Project Scheduling', 'Calendar Integration', 'Team Collaboration'],
+  },
+  {
+    id: 'prod-2',
+    name: 'Fireflies.ai',
+    category: ToolCategory.Productivity,
+    description: 'AI meeting assistant that records, transcribes, and summarizes your calls.',
+    longDescription: 'Fireflies.ai joins your meetings on platforms like Zoom, Google Meet, and Microsoft Teams to automatically transcribe them. After the call, it provides searchable transcripts, summaries, and key action items, making it easy to recall important conversations.',
+    price: 'Freemium',
+    rating: 4.6,
+    link: 'https://fireflies.ai/',
+    keyFeatures: ['Automated Transcription', 'Meeting Summaries', 'Action Item Detection', 'Integrates with CRMs'],
   },
 
   // Chatbots
@@ -147,6 +180,17 @@ export const TOOLS: Tool[] = [
     rating: 4.7,
     link: '#',
     keyFeatures: ['Cross-Platform Analytics', 'Automated Bid Management', 'Audience Targeting Suggestions', 'A/B Testing'],
+  },
+  {
+    id: 'market-2',
+    name: 'Jasper',
+    category: ToolCategory.Marketing,
+    description: 'AI Content Platform for creating marketing copy, blog posts, and more.',
+    longDescription: 'Jasper is a leading AI content generation tool trained to write original, creative content for various marketing needs. It can generate blog articles, social media posts, ad copy, and email newsletters, helping marketing teams scale their content production significantly.',
+    price: 'Paid',
+    rating: 4.8,
+    link: 'https://www.jasper.ai/',
+    keyFeatures: ['Long-form Content Writer', '50+ Marketing Templates', 'Brand Voice & Tone Matching', 'Plagiarism Checker'],
   },
 ];
 
